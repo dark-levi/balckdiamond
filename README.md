@@ -3,3 +3,14 @@
 
 # Image 
 <img src="https://raw.githubusercontent.com/dark-levi/balckdiamond/main/Screenshot_%D9%A2%D9%A0%D9%A2%D9%A3%D9%A1%D9%A1%D9%A0%D9%A2-%D9%A2%D9%A0%D9%A1%D9%A7%D9%A5%D9%A3_Termux.jpg">
+
+# Installation 
+
+```
+apt update
+apt upgrade -y
+pkg install python3
+termux-setup-storage
+cd blackdiamond
+chmod 777 *
+python3 BlackDiamond.py
