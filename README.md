@@ -12,7 +12,7 @@ apt upgrade -y
 pkg install python3
 pkg install git
 termux-setup-storage
-git clone https://github.com/dark-levi/blackdiamond
+git clone https://github.com/darklevi7/blackdiamond
 cd blackdiamond
 chmod +x *
 python3 BlackDiamond.py
